@@ -1,0 +1,12 @@
+[project]
+name = "ProDuck"
+version = "0.1.0"
+description = "A productivity tool to track your productive time"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.115.11",
+]
+
+[dependency-groups]
+dev = []
